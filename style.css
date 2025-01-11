@@ -1,0 +1,73 @@
+*{
+font-family: Bulgatti;
+margin: 0;
+padding: 0;
+background-image:url(../pexels-tima-miroshnichenko-6764932.jpg);
+background-position: center;
+background-attachment: fixed;
+background-size: cover;
+box-sizing: border-box;
+  }
+
+header{
+display:flex;
+flex-flow: row wrap;
+justify-content: space-between;
+align-items: center;
+
+
+padding-top: 30px;
+padding-bottom: 60PX;
+
+}
+.logo{
+   text-decoration: none;
+    padding-left:100px;
+color:red;
+font-size: 30px;
+font-weight: bold;
+
+}
+
+ul{
+display: inline-flex;
+gap: 50px;
+padding: 0 20px;
+margin: 0 30px;
+list-style: none;
+align-self: center;
+
+}
+ul a {
+    text-decoration: none;
+ font-size: 20px;
+ font-weight: bold;
+
+ color:white;
+}
+.landig{
+justify-content: center;
+
+align-items: center;
+width: 700px;
+display: flex;
+}
+
+form{
+color: aliceblue;
+font-weight: bolder;
+align-content: center;
+}
+
+
+form h1{
+text-align: center;
+}
+
+a{
+text-decoration: none;
+    color: orange;
+}
+button{
+    color: white;
+}
